@@ -4,8 +4,6 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import BookSearch from "@/components/BookSearch";
 import BookShelf from "@/components/BookShelf";
 import { Toaster } from "@/components/ui/toaster"
-
-import "./App.css";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const App = () => {
